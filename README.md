@@ -7,36 +7,56 @@ This voting system uses blockchain as the backend ledger to store votes, prevent
 
 🚀 Key Features
 ✅ Secure Authentication (Admin & Voter Login)
+
 🔒 Vote Immutability via Blockchain
+
 🧾 Blockchain Ledger View for Admin
+
 📊 Live Result Count (Updated in Real Time)
+
 🌐 Web Interface using Flask & Bootstrap
+
 🛠️ Vote Verification with cryptographic hashing
+
 ⚙️ Admin Dashboard to monitor and control election flow
 
 🧱 Tech Stack
 Backend: Python, Django
+
 Blockchain: Custom-built blockchain using Python
+
 Frontend: HTML, CSS, Bootstrap
+
 Database: SQLite3 extension
+
 Authentication: Session-based (Admin & Voter login)
+
 Others: Web3 Concepts (without Ethereum), Crypto Library (for hashing)
 
 📁 Project Structure
 How Blockchain is Used
+
 Each vote is treated as a transaction.
+
 Transactions are grouped into blocks.
+
 Each block is cryptographically linked to the previous one, creating a tamper-proof chain.
+
 Once a vote is recorded, it cannot be altered or deleted, ensuring full integrity.
 
 🔐 Authentication Flow
 Admin Login: Create and monitor elections, view blockchain.
+
 Voter Login: Unique user ID/password allows one-time voting.
+
 Voting Lock: Once voted, the system disables the voter's ability to re-vote.
 
 📊 Sample Screens
 Home Page
+
 Admin Dashboard
+
 Voting Page
+
 Live Results
 
